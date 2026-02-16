@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppEscritorioRHM.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,7 @@ namespace AppEscritorioRHM.Core.Utilities
 {
     public class AppSettings
     {
+        public UserProfile actualUser { get; set; }
         public string? DominioWeb { get; set; }
         public Dictionary<string, string> MarcaSlug { get; } = new Dictionary<string, string>
         {

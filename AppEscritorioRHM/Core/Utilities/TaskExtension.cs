@@ -1,4 +1,4 @@
-﻿using AppEscritorioRHM.Core.Models.Domain;
+﻿using AppEscritorioRHM.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;

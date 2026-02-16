@@ -26,72 +26,36 @@ namespace AppEscritorioRHM.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string yourConsumerKeyWC {
-            get {
-                return ((string)(this["yourConsumerKeyWC"]));
-            }
-            set {
-                this["yourConsumerKeyWC"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string yourConsumerSecretWC {
-            get {
-                return ((string)(this["yourConsumerSecretWC"]));
-            }
-            set {
-                this["yourConsumerSecretWC"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string yourConsumerKeyWP {
-            get {
-                return ((string)(this["yourConsumerKeyWP"]));
-            }
-            set {
-                this["yourConsumerKeyWP"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string yourConsumerSecretWP {
-            get {
-                return ((string)(this["yourConsumerSecretWP"]));
-            }
-            set {
-                this["yourConsumerSecretWP"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string Dominio {
-            get {
-                return ((string)(this["Dominio"]));
-            }
-            set {
-                this["Dominio"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string directoryDownloadRedirections {
             get {
                 return ((string)(this["directoryDownloadRedirections"]));
             }
             set {
                 this["directoryDownloadRedirections"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string userSelected {
+            get {
+                return ((string)(this["userSelected"]));
+            }
+            set {
+                this["userSelected"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Users {
+            get {
+                return ((string)(this["Users"]));
+            }
+            set {
+                this["Users"] = value;
             }
         }
     }
